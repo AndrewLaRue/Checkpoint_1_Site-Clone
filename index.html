@@ -12,14 +12,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
   <title>Site-Clone</title>
+  <link rel="icon" type="image/x-icon" href="assets/imgs/117271-a-logo-avengers-letter-free-download-image.png">
 </head>
 
 <body>
 
   <header class="container-fluid sticky-top">
     <div class="row">
-      <div class="col bg-success text-light">
-        <h1 class="ms-5"> <i class="mdi mdi-bank"></i> LOREM IPSUM</h1>
+      <div class="d-flex col bg-success text-light justify-content-between">
+
+        <h1 class="ms-5"><i class="mdi mdi-bank text-light"></i> LOREM
+          IPSUM</h1>
+
+        <span class="d-flex me-5">
+          <a href="#above">
+            <h1 class="mdi mdi-arrow-up-thick"> </h1>
+          </a>
+          <a href="#below">
+            <h1 class="mdi mdi-arrow-down-thick"> </h1>
+          </a>
+
+        </span>
       </div>
     </div>
   </header>
@@ -28,7 +41,7 @@
 
     <!-- Row 0ne -->
     <section class="row hero-img">
-      <div class="col-12 col-md-4 p-md-5">
+      <div class="col-12 col-md-4 p-md-5 " id="above" name="above">
         <h5 class="ms-5 mt-4 img-text">Subtle Heading</h5>
         <div class="card m-1 mb-5 shadow rounded p-3">
           <form class="row g-3">
@@ -56,7 +69,7 @@
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn text-success"> <b>SUBMIT</b></button>
+              <button type="submit" class="btn text-success hoverable"> <b>SUBMIT</b></button>
             </div>
           </form>
         </div>
@@ -81,7 +94,7 @@
             <li class="list-group-item"> <i class="mdi mdi-phone text-success pe-3"></i>Followed by a phone.</li>
             <li class="list-group-item"> <i class="mdi mdi-chart-bubble text-success pe-3"></i> Apparently mdi calls
               this a
-              bubble Chart.</li>
+              Bubble Chart.</li>
             <li class="list-group-item"> <i class="mdi mdi-lightning-bolt text-success pe-3"></i>I have the POWER!!!
             </li>
           </ul>
@@ -112,7 +125,7 @@
             possimus quaerat nihil labore eius voluptatem facere, assumenda odit?
           </p>
           <div class="d-flex justify-content-end">
-            <button class="btn btn-success text-light me-2 mb-2">MORE</button>
+            <button class="btn btn-success text-light me-2 mb-2 hoverable">MORE</button>
           </div>
         </div>
       </div>
@@ -125,7 +138,8 @@
           <h1 class="text-center text-success"> <i class="mdi mdi-spin mdi-star-circle-outline"></i><i
               class="mdi mdi-spin mdi-star-circle-outline px-3"></i><i class="mdi mdi-spin mdi-star-circle-outline"></i>
           </h1>
-          <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate minima illum deserunt cum fuga optio
+          <p>"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate minima illum deserunt cum fuga
+            optio
             facilis voluptatibus."
           </p>
           <p class="text-success">Lorem ipsum <br>dolor sit amet consectetur adipisicing elit. Iure, ab.
@@ -155,13 +169,14 @@
     <section class="row">
       <div class="col bg-success text-light p-5">
         <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit!</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo impedit illum neque eum fugit incidunt
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus quo impedit illum neque eum fugit
+          incidunt
           distinctio. Ad, illum laborum!</p>
       </div>
     </section>
   </main>
 
-  <footer class="container-fluid">
+  <footer class="container-fluid" id="below" name="below">
     <div class="row">
       <div class="col text-center py-4">
         <h4 class="text-success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, fuga?</h4>
