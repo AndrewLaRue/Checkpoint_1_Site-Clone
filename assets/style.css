@@ -1,0 +1,46 @@
+.left-border {
+  border-left: 10px solid green;
+
+}
+
+.hero-img {
+  background-image: url(https://images.squarespace-cdn.com/content/v1/522e10ece4b0d5218db66785/1527549729390-P8V7QM9HCMLXVAP6NU87/dry-creek-owyhee-.jpg?format=1500w);
+  background-size: cover;
+  background-position: center;
+}
+
+.img-text {
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px black;
+
+}
+
+#text-area {
+  width: 100%;
+  resize: none;
+}
+
+
+
+.grey-back {
+  background-color: rgb(245, 244, 244);
+}
+
+header {
+  font-family: 'Oswald',
+    sans-serif;
+}
+
+@media (min-width: 768px) {
+  .overhang {
+    transform: translateY(50px);
+  }
+}
+
+.hoverable:hover {
+  transform: scale(1.05);
+}
+
+.selectable {
+  cursor: pointer;
+}
